@@ -1,0 +1,31 @@
+# Global ignores
+.DS_Store
+*.log
+.env
+.env.*
+
+# Python backend
+backend/__pycache__/
+backend/*.pyc
+backend/.venv/
+backend/venv/
+backend/env/
+
+# Node.js frontend
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/out/
+
+# OS / IDE
+.vscode/
+.idea/
+
+# Ignore node_modules in both backend and frontend
+backend/node_modules/
+frontend/node_modules/
+
+# Ignore build output (e.g., .next for Next.js, dist for general build output)
+backend/dist/
+frontend/.next/
+frontend/dist/
